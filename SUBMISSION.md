@@ -1,6 +1,6 @@
 # NexaStock submission checklist
 
-Use this checklist when submitting NexaStock to Codebxo. The links and documents below are ready; the APK file and short demo video must be attached separately.
+Use this checklist when submitting NexaStock to Codebxo. The links and documents below are ready. Attach the APK file and include the two demo recordings.
 
 1. **Source code repository:** https://github.com/muhammedadhynan/smart-inventory/tree/nexastock-deploy  
    The repository is private. Give the company reviewer access before submission.
@@ -11,12 +11,15 @@ Use this checklist when submitting NexaStock to Codebxo. The links and documents
 5. **Database structure / ER-style diagram:** [docs/DATABASE.md](docs/DATABASE.md)
 6. **API documentation:** [docs/API.md](docs/API.md)
 7. **Installation and setup README:** [README.md](README.md)
-8. **Short screen recording:** Record a 1–2 minute walkthrough and attach its MP4. Follow [docs/DEMO-RECORDING.md](docs/DEMO-RECORDING.md).
+8. **Short screen recordings:**
+   - Web app: [Watch web screen recording](https://drive.google.com/file/d/1zaggB4ief6QAXbvhJWH85XnkZQRPmSc6/view?usp=sharing)
+   - Android app: [Watch Android screen recording](https://drive.google.com/file/d/1ickeMXeTl7A-Ddr7oc_jHQBQ9wBaF7IV/view?usp=sharing)
+   - [Recording notes](docs/DEMO-RECORDING.md)
 
 ## Before uploading
 
 - Confirm the company reviewer can open the private repository.
 - Make sure the APK installs and opens on an Android phone.
-- Play the recording once to check that the app is readable and no password or private customer information is visible.
+- Confirm the Codebxo reviewer can view both Drive recordings, then check that no password or private customer information is visible.
 - Never include `.env` files, database credentials, JWT secrets, the `.p12` signing key, or its password in the submission.
 

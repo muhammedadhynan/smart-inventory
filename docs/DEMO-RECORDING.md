@@ -2,6 +2,11 @@
 
 Aim for a clear 1–2 minute video showing the finished live web app. Use Chrome or the NexaStock Android app and use sample data where possible.
 
+## Submitted recordings
+
+- [Web app screen recording](https://drive.google.com/file/d/1zaggB4ief6QAXbvhJWH85XnkZQRPmSc6/view?usp=sharing)
+- [Android app screen recording](https://drive.google.com/file/d/1ickeMXeTl7A-Ddr7oc_jHQBQ9wBaF7IV/view?usp=sharing)
+
 ## Suggested recording order
 
 1. Show the NexaStock sign-in screen and sign in without showing or saying the password.
