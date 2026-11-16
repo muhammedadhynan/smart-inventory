@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: nexastock-inventory
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm --prefix backend ci && npm --prefix frontend ci && npm --prefix frontend run build
+    startCommand: node backend/server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production

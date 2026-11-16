@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NexaStock</string>
+    <string name="title_activity_main">NexaStock</string>
+    <string name="package_name">com.nexastock.inventory</string>
+    <string name="custom_url_scheme">com.nexastock.inventory</string>
+</resources>
